@@ -28,6 +28,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-archives
+  - jekyll-assets
 
 jekyll-archives:
   enabled: all
