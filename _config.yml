@@ -16,7 +16,7 @@
 title: Tyler Goza's Blog
 email: tyler@tylergoza.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is just a personal blog for me. Hope someone will find something 
+  This is just a personal blog for me. Maybe someone will find something 
   of interest. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.tylergoza.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,7 +31,14 @@ plugins:
   - jekyll-assets
 
 jekyll-archives:
-  enabled: all
+  enabled:
+    - categories
+    - tags
+    - year
+  layouts:
+    year: year-archive
+    tag: tag-archive
+    category: category-archive
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
