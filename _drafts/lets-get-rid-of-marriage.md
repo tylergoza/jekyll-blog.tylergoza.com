@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Let's get rid of marriage.
+date: 2017-07-23 04:28:25.667000000 Z
+layout: post
 ---
+
 I have a theory about how marriage should be handled under US law. I believe there is a way to respect individuals religious choices while granting the maximum amount of freedom to people with reguards to whom they wish to marry.  
 
 Get rid of the concept of marriage as a legal status.  
